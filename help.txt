@@ -1,0 +1,15 @@
+#help.txt contains commonly used Linuxcommands
+
+su      : log in as admin (SuperUser)
+whoami  : info how you logged in
+
+sudo apt update : update apps
+sudo apt upgrade: upgrade apps
+
+ls      : list -a(hidden) -l(long format) -t|head -1 (last edited)
+rm      : remove (ReMove) -f(force) -r (dir+recursions)
+mv      : rename (Move) -f(force)
+mkdir   : Make Dir
+touch   : recreate timestamp
+cat     : prints file
+cp      : copy

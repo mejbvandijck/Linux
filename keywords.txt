@@ -1,0 +1,10 @@
+CLI = command line interface
+LPI = Linux Professional Institute
+    chapter 2-
+OS Linux systems:
+Redhat(web app): Scientific Linux, CentOS, Fedora
+SLS(mainframe): Slackware, SUSE + open SUSE, SLES
+Debian(homeUser): Ubuntu, Linux Mint
+Andriod(phone)
+Raspbian(engineerDevelopment)
+    \chapter 2 -
