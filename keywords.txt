@@ -7,5 +7,7 @@ SLS(mainframe): Slackware, SUSE + open SUSE, SLES
 Debian(homeUser): Ubuntu, Linux Mint
 Andriod(phone)
 Raspbian(engineerDevelopment)
-    \chapter 2 -
--new line: what are the new keywords for chapter 2?
+    \chapter 3 -
+MTA = Message Transfer Agent (Software used to transfer your messages to a remote server) communicating is with the same software like Sendmail and Postfix.
+MDA = Message Delivery Agent (Transfering data in for instance Sendmail or Postfix)
+Pop/IMAP = Post Office Protocol / Internet Message Acces Protocol (your email client(transfers) with the remote server(pickup)) communicating can be done with different software.
