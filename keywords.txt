@@ -11,3 +11,5 @@ Raspbian(engineerDevelopment)
 MTA = Message Transfer Agent (Software used to transfer your messages to a remote server) communicating is with the same software like Sendmail and Postfix.
 MDA = Message Delivery Agent (Transfering data in for instance Sendmail or Postfix)
 Pop/IMAP = Post Office Protocol / Internet Message Acces Protocol (your email client(transfers) with the remote server(pickup)) communicating can be done with different software.
+
+adding another line
