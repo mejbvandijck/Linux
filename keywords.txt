@@ -8,8 +8,27 @@ Debian(homeUser): Ubuntu, Linux Mint
 Andriod(phone)
 Raspbian(engineerDevelopment)
     \chapter 3 -
-MTA = Message Transfer Agent (Software used to transfer your messages to a remote server) communicating is with the same software like Sendmail and Postfix.
-MDA = Message Delivery Agent (Transfering data in for instance Sendmail or Postfix)
-Pop/IMAP = Post Office Protocol / Internet Message Acces Protocol (your email client(transfers) with the remote server(pickup)) communicating can be done with different software.
+MTA = Mail Transfer Agent (Software used to transfer your messages to a remote server) Like Sendmail and Postfix.
+MDA = Mail Delivery Agent (is a Local Delivery Agent) usualy invoked from MTA chain
+POP = Post Office Protocol (Get email from the server and delete it so its stored localy(Used on 1 device))
+IMAP = Internet Message Acces Protocol (Get email from the server and leave it there (mostly used on more devices at the same time)).
+Samba = File sharing programm (Linux acts like windows)
+Netatalk = File sharing programm (Linux acts like apple)
+NFS = Network File Sharing (Unix/Linux)
+DNS = Domain Name System (i.e. a www.adress.com converts to an IP address)
+LDAP = Lightweight Directory Access Protocol (position of treeobjects and info about it)
+DHCP = Dynamic Host Configuration Protocol (give computer a free IP address on bootup)
+ISC = Internet System Consortium(Open Source)
+SMTP = Simple Mail Transfer Protocol
+POP = Point of Presence
+POP3 = Post Office Protocol
+POSIX = Portable Operating System Interface
+PPP = Point to Point protocol
+GNOME = GNU Object Modeling Environment (open source desktop environment i.e. used in Ubuntu)
+KDE = (Kool) Desktop Environment
+IMAP = Internet Message Access Protocol
+GIMP = GNU Image Manupulation Program
+Bash = Bourne again shell (developer Bourne)
+tcsh = T C SHell developed with a C background
+Ksh / Zsh = popular derivatives from Bash and tcsh (using the best features of both)
 
-adding another line
