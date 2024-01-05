@@ -31,4 +31,6 @@ GIMP = GNU Image Manupulation Program
 Bash = Bourne again shell (developer Bourne)
 tcsh = T C SHell developed with a C background
 Ksh / Zsh = popular derivatives from Bash and tcsh (using the best features of both)
+texteditors = Vi(Vim), Emacs are complex and pico, nano(open source) are simple
+apt = Andvanced Package Tool
 
