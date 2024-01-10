@@ -48,4 +48,5 @@ HTTP(S) = Hyper Text Transfer Protocol (Secure), see FTP but state doesnt matter
 2FA = 2 factor authentication 
 VPN = Virtual Private Network, encrypted channel of communication between two systems (can mask your IP address)
 Tor(browser) = The Onion Router, Onion stands for multilayer and anonymize users of their online activities
-
+Cloud = can be Public/Private/Community/Hybrid
+Linux (in the cloud) = flexible, accessible, cost-effective, manageable, secure and virtualizable(run multible guests on a host)
