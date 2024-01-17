@@ -50,3 +50,5 @@ VPN = Virtual Private Network, encrypted channel of communication between two sy
 Tor(browser) = The Onion Router, Onion stands for multilayer and anonymize users of their online activities
 Cloud = can be Public/Private/Community/Hybrid
 Linux (in the cloud) = flexible, accessible, cost-effective, manageable, secure and virtualizable(run multible guests on a host)
+
+API = Application Programm Interface
