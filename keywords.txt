@@ -52,3 +52,36 @@ Cloud = can be Public/Private/Community/Hybrid
 Linux (in the cloud) = flexible, accessible, cost-effective, manageable, secure and virtualizable(run multible guests on a host)
 
 API = Application Programm Interface
+IEEE = Institute of Electrical and Electronics Engineers
+POSIX = Portable Operating System Interface 
+EULA = End User License Agreement(document with info like: only 1 copy, you may not reverse engineer, you get minor updates not major upgrades)
+GPL = General Public License(anyone can use and change(and bennefits others) with this version). Introduced by Linus Torvalds
+copyleft = share changes to a programm with other users
+FSF = Free Software Foundation (user free software foundation protecting user freedom in the realm of software)
+GNU = General Public License (use, study, modify and distribute software; any outcome from this must be distributed on the same terms)
+OSI = Open Source Initiative 
+BSD = Berkley Software Distribution (early version of the UNIX system)
+CC = Creative Commons (address the intensions behind FOSS licenses for non-software entities: BY, SA, NC, ND)
+BY = Attribution, creator must be given credit
+SA = ShareAlike, This allows others to copy, distribute, perform, and modify the work, provided they do so under the same terms
+NC = NonCommerical, same as SA + display except not commercially
+ND = This allows others to distribute, display, and perform only original copies of the work
+Attritbution variants = CC-BY(2 SA copyleft, 3 ND not change, 4 NC non commercial, 5 NC-SA share, 6 NC-ND noone change content) and CC0 is public domain
+
+command structure = command [options] [arguments] (CaseSensitive)
+abbreviations = -h is equal to --human-readable
+history = to see all commands used
+variable = usable in Bash to give entities names and recall them (var = ls -> $echo $var (to call the var))
+echo = command is used to display output in the terminal
+env = environment variables/global variables when opening a new bash (like PATH, HOME, HISTSIZE)
+| = pipe command, passes the command to the next command (like env | grep)
+export = passes(or creates) local to environment(global) (like export variable2='True') calling a var gives $var
+PATH = directory structure like echo $PATH to show and PATH=/../..:$PATH to add a structure. the end $PATH means append the the current PATH
+which = focuses on the location of the executable
+type = simular to which but provides more comprehensive information about the command
+alias = like as in python, create shorter commands and use those type: alias to see wich aliasses are active like alias C="cal 2019" 
+functions = use C look, like my_report () {.. .. ..} this creates a function that runs each line .. .. ..
+quoting = "" '' \ for comments within functions
+glob = wild cards, special symbols like *, ?, []
+
+
