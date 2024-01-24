@@ -69,7 +69,7 @@ ND = This allows others to distribute, display, and perform only original copies
 Attritbution variants = CC-BY(2 SA copyleft, 3 ND not change, 4 NC non commercial, 5 NC-SA share, 6 NC-ND noone change content) and CC0 is public domain
 
 command structure = command [options] [arguments] (CaseSensitive)
-abbreviations = -h is equal to --human-readable
+-h = abbreviation is equal to --human-readable
 history = to see all commands used
 variable = usable in Bash to give entities names and recall them (var = ls -> $echo $var (to call the var))
 echo = command is used to display output in the terminal
@@ -83,5 +83,14 @@ alias = like as in python, create shorter commands and use those type: alias to 
 functions = use C look, like my_report () {.. .. ..} this creates a function that runs each line .. .. ..
 quoting = "" '' \ for comments within functions
 glob = wild cards, special symbols like *, ?, []
+alias = what aliases are set on the current shell (the aliasses will be lost)
+"" = you can use $ variables
+'' = you can not use $variables (raw text)
+\ = escape char like python
+`` = backquotes used to indicate a variable within a text
+; = used to run multiple commands like x; you
+&& = and
+||   = or (double pipe is the logical or)
+man = manual page for a command 'h' help for moving in the list 'q' for quoting
 
 
