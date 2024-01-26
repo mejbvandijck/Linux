@@ -92,5 +92,11 @@ alias = what aliases are set on the current shell (the aliasses will be lost)
 && = and
 ||   = or (double pipe is the logical or)
 man = manual page for a command 'h' help for moving in the list 'q' for quoting
+[] = example: [[month] year] can be run without both, only with year, but if you use month you need to add year too.
+/ = to find text in the manual like man man your in the manual of man. then use /file to find all text with file in it.
+man -k = use -k copy to find all commands with copy in it (apropos is the same on most Linux systems)
+whereis = find commands and man pages. it returns a PATH
+locate = search in all files locate -c -b "\passwd" (number(-c) of matches of all files(-b) with exact(\) passwd)
+info = expanded verion of man. <shift+H> for help in navigating ; 'q' is quit
 
 
