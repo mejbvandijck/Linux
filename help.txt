@@ -14,6 +14,7 @@ touch   : recreate timestamp
 cat     : prints file
 cp      : copy
 ~       : /home/user directory
+.       : current working directory
 history : show the history of commands (history # to show last # commands)
 !#      : !3 (execute command 3 in the historylist) you can also use a part text
 !!      : execute last command

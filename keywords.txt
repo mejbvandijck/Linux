@@ -99,4 +99,6 @@ whereis = find commands and man pages. it returns a PATH
 locate = search in all files locate -c -b "\passwd" (number(-c) of matches of all files(-b) with exact(\) passwd)
 info = expanded verion of man. <shift+H> for help in navigating ; 'q' is quit
 
-
+metadata = associated details about the file
+drwxr-xr-x = ONLY first letter is d(dir) -(file) l(link) s(socket) p(pip) b(block file) c(character file)
+drwxr-xr-x = Next are the permission letters (rwx)
