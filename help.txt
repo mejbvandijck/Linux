@@ -8,14 +8,16 @@ sudo apt upgrade: upgrade apps
 
 ls      : list -a(hidden) -l(long format) -t|head -1 (last edited)
 rm      : remove (ReMove) -f(force) -r (dir+recursions)
-mv      : rename (Move) -f(force)
+mv      : rename (Move) -f(force) -r(recursive)
 mkdir   : Make Dir
-touch   : recreate timestamp
+touch   : (re)create file with current timestamp
 cat     : prints file
-cp      : copy
+cp      : copy -p(cp with timestamp) -i(ask to overwite -n for 'no')
 ~       : /home/user directory
 .       : current working directory
 history : show the history of commands (history # to show last # commands)
 !#      : !3 (execute command 3 in the historylist) you can also use a part text
 !!      : execute last command
-    
+cp -i   : asks to overwrite files, add -n to to answer all with 'no' 
+cp -p   : copy the file with the same timestamp
+locate  : find something file/dir

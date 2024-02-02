@@ -106,3 +106,5 @@ drwxr-xr-x = Next are the permission letters (rwx)
 ls / = show folders rootdir
 ls -d = directory info like what's the info in the directories in the directory
 pwd = print work dir like /usr/bob
+
+
