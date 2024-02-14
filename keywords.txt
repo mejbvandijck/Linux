@@ -106,5 +106,7 @@ drwxr-xr-x = Next are the permission letters (rwx)
 ls / = show folders rootdir
 ls -d = directory info like what's the info in the directories in the directory
 pwd = print work dir like /usr/bob
+tar = TApe aRchive ; create(-c), extract(-x), list(-t), compress(-z), add files/dir(-r) (multiple files: tarball .tar also used .tar.gz / .tgz for compressed files)
+
 
 
