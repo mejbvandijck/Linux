@@ -108,5 +108,9 @@ ls -d = directory info like what's the info in the directories in the directory
 pwd = print work dir like /usr/bob
 tar = TApe aRchive ; create(-c), extract(-x), list(-t), compress(-z), add files/dir(-r) (multiple files: tarball .tar also used .tar.gz / .tgz for compressed files)
 
-
-
+tr = translate text like tr 'a-z' 'A-Z' translates all text to capital letters
+sort = sorting like -t, -k2 -k1n -k3 (-t, comma seperator sort k2 first then k1 numerical then k3)
+wc = show number of lines, words and bytes; default show all -l, -w, -c to show seperate
+cut = showing parts of files -d: means seperated by :
+grep = used to filter lines in a file -c gives number of matches, -n addes linenumbers to results, -v excluded matches, -i ignores capital letters, -w gives exact word matches
+grepsearchcommands = *all ^atbegin, ^not, $end, \escapechar, .anychar, a-zrangeatoz, []allinbrackets, *allevenNone, ee*all'e', ?oneOrNone, +oneOrmore, |logicalOr
