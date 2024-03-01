@@ -117,3 +117,6 @@ grepsearchcommands = *all ^atbegin, ^not, $end, \escapechar, .anychar, a-zrangea
 
 vi = editor vi+filename to enter use (i) insert mode (Esc) to command mode (:wq) to write and quit (:!q) to quit without changes
 
+lscpu = cpu info
+head = -n 20 file (show the first 20 lines from a text)
+free = free memory available(-m for MegaByte, -g for GigaByte)
