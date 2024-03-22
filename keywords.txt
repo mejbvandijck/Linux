@@ -121,3 +121,19 @@ lscpu = cpu info
 lspci =
 head = -n 20 file (show the first 20 lines from a text)
 free = free memory available(-m for MegaByte, -g for GigaByte)
+
+/dev = devices
+PID = process ID
+sda = Device a like an HD or Usb (every device is a directory in Linux)
+sda1 = partition a of an Device
+jobs = wich commands are running in the current terminal
+fg %1 = bring a command to the foreground (^Z to stop the process)
+[command] & = with & you bring the command to the background
+kill %1 = Terminate process 1 (check with jobs the status)
+killall ping = kill all ping commands
+top = table of process (refreshes each 2 sec)
+ps = process status (lookup PID of a process)
+pkill -15 sleep = stop programm
+pkill -9 sleep = force (terminate) programm
+
+
