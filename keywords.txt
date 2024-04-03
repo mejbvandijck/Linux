@@ -136,4 +136,15 @@ ps = process status (lookup PID of a process)
 pkill -15 sleep = stop programm
 pkill -9 sleep = force (terminate) programm
 
-
+host = any device that communicates via a network (desktop, laptop but also music players or televisions)
+network = collection of two or more hosts
+server = A host that provides a service to another host or client (like an email server receives incoming mail and delivers outgoing mail)
+client = a host dat accessing a server
+WiFi = wireless network
+router = is also called a gateway and connects networks together
+packet = network packet used to send network communication between hosts
+IP = Internet Protocol (address of a hosts)
+Mask = netmask, subnetmask or mask is a number system for which hosts are in a network
+URL = Uniform Resource Locator 
+DHCP = Dynamic Host Configuration Protocol; defines network information for clients and the server provides this information
+DNS = Domain Name System converts the hosts Names to IP address numbers
